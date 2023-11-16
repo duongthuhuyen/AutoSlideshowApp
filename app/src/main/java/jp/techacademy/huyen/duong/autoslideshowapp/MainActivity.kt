@@ -132,7 +132,7 @@ class MainActivity : AppCompatActivity() {
                 handler.post {
                     binding.imageview.setImageURI(listUris.get(index))
                 }
-                if (index == uriSize) {
+                if (index == uriSize-1) {
                     index = 0
                 } else {
                     index++
